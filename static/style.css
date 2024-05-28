@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: -9px -13px;
+    margin-right: 14px;
+}
+#logo img{
+    height: 42px;
+    filter: invert(1);
+}
+#logo h4{
+    font-size: 11px;
+    margin-left: -10px;
+}
+#navbar{
+    background-color: #de5c68;
+    padding: 16px 14px;
+    font-family: "Playfair Display", serif;
+    /* font-weight: bold; */
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center; /*vertically center*/
+}
+#navbar ul li{
+    list-style: none;
+    /* padding: 12px 30px; */
+}
+#navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 12px 53px;
+}
+#navbar li a:hover{
+    color: black
+}
+#introsection{
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    font-size: 3.4rem;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Playfair Display", serif;
+    background: url("../static/bg.jpg") no-repeat center center/cover;
+    height: 400px;
+    /* background-color: rgb(232, 138, 138); */
+}
+.small{
+    padding: 1px;
+    font-size: 1.4rem;
+}
+#missionsection{
+    /* background-color: rgb(231, 225, 225); */
+    height: 340px;
+    display: block;
+    margin: auto;
+    width: 67%;
+}
+#missionsection h2{
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    font-size: 34px;
+    padding-top: 13px;
+    color: black;
+}
+.card{
+    width: 28%;
+    border: 2px solid black;
+    height: 209px;
+    margin: 20px 27px;
+    display: inline-block;
+    background-color: #ffc8c8
+}
+.card-box{
+    display: block;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.card-img{
+    height: 100px;
+    padding: 0px 14px;
+    justify-content: center;
+    display: flex;
+}
+.card-content p{
+    text-align: center;
+}
+.card-img img{
+    height: inherit;
+    /* justify-content: center; */
+}
+#missionsection h3{
+    text-align: center;
+    margin-top: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#sponsorsection{
+    height: 300px;
+    background-color: rgb(188, 78, 78);
+}
+#sponsorsection h2{
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    font-size: 34px;
+    padding-top: 13px;
+    color: white;
+}
+#sponsors{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.spImage{
+    height: 244px;
+    padding: 26px 31px;
+}
+#footer{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 30px;
+}

@@ -1,0 +1,40 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title List of students
+  style.
+    table,th,td{
+    border: 2px double black;
+    }
+    td{
+    text-align: center;
+    }
+    h1{
+    text-align: center;
+    }
+    table {
+        width :100%;
+    }
+body 
+    .container 
+        h1 Member You Searched
+        table 
+            thead 
+                tr 
+                    th Name 
+                    th gender 
+                    th Phone Number 
+                    th Email 
+                    th Address 
+                    th Description 
+            tbody 
+                each person in x 
+                    tr 
+                        td #{person.name} 
+                        td #{person.gender} 
+                        td #{person.phno} 
+                        td #{person.email} 
+                        td #{person.address} 
+                        td #{person.desc}        

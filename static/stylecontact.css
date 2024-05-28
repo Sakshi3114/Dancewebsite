@@ -1,0 +1,77 @@
+.login{
+    display: block;
+    margin: 30px auto;
+    border: 1px solid black;
+    width: 471px;
+    height: 714px;
+    color: white;
+    background: url(/static/login\ background.jpg);
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.75); 
+    /* Parameters of box shadow */
+    /* horizontal vertical blurred effect color */
+    background-size: cover; 
+    /* to fit the background inside */
+    background-position: center;
+    overflow:hidden;
+}
+
+.myForm{
+    box-sizing: border-box;
+    display: block;
+    padding: 40px;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: brightness(40%);
+    flex-direction: column;
+    display: flex;
+    gap: 5px;
+}
+
+h1{
+    font-weight: normal;
+    font-size: 24px;
+    text-shadow: 0px 0px 2px rgba(0,0,0,0.5);
+    margin-bottom: 60px;
+}
+
+label{
+    color: rgba(255, 255, 255, 0.8);
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+input,textarea{
+    background-color: rgba(255, 255, 255, 0.3);
+    height: 35px;
+    line-height: 35px;
+    border-radius: 20px;
+    padding: 0px 20px;
+    border: none;
+    margin-bottom: 20px;
+    color: white;
+}
+
+button{
+    margin: 10px 0px;
+    border-radius: 20px;
+    background-color: rgb(12, 104, 56);
+    border: none;
+    height: 40px;
+    line-height: 40px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
